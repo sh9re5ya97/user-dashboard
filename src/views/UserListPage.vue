@@ -39,7 +39,6 @@
 <script>
 import axios from "axios";
 import UserCard from '@/components/UserCard.vue';
-// import { getUsers } from '@/services/userService';
 
 export default {
   name: "UserList",
@@ -90,9 +89,3 @@ export default {
 };
 </script>
 
-<style>
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-</style>
