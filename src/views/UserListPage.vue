@@ -57,7 +57,7 @@ export default {
   methods: {
     async fetchUsers() {
       const response = await axios.get(
-        "http://jsonplaceholder.typicode.com/users"
+        "httpS://jsonplaceholder.typicode.com/users"
       );
       this.users = response.data;
       this.filteredUsers = this.users;
